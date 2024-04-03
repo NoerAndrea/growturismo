@@ -1,11 +1,9 @@
 import { Fragment } from "react/jsx-runtime";
+import { Footer } from "../components/styled/Footer";
 import { Header } from "../components/styled/Header";
 import { Nav } from "../components/styled/Nav";
-import { Footer } from "../components/styled/Footer";
-import { Content } from "../components/styled/Content";
-import { Card } from "../components/styled/Card";
 
-export function Planos(){
+export function Contato(){
     return(
         <Fragment>
             <Header>
@@ -31,13 +29,7 @@ export function Planos(){
                     </Nav>
                 </div>
             </Header>
-            <Content>
-                <div>
-                    <Card>
-                        
-                    </Card>
-                </div>
-            </Content>
+           <h1>Contato</h1>
            <Footer>
             <div>
                 <p>&copy;2024 Full Stack Growdev</p>

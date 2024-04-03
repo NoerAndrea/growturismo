@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const Footer = styled.div`
+export const Header = styled.div`
     background-color: rgb(18, 42, 87);
-    height: 70px;
+    height: 120px;
     display: flex;
     align-items: center; 
     
@@ -13,11 +13,16 @@ export const Footer = styled.div`
         margin: auto;
         justify-content: space-between;       
         width: 992px;
-        color: rgb(255, 255, 255);
-        vertical-align: inherit;
+        flex-wrap: wrap;
+        gap: 10px;
     }
-    p{       
-        font-size: 0.8rem;
+    h1{  
+        color: rgb(255, 255, 255);     
+        font-size: 3.2rem;
 		font-weight: 400;      
+    }
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
     }
 `
