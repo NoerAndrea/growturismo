@@ -3,8 +3,12 @@ import { Footer } from "../components/styled/Footer";
 import { Header } from "../components/styled/Header";
 import { Nav } from "../components/styled/Nav";
 import { Content } from "../components/styled/Content";
-import { Card } from "../components/styled/Card";
+
+import imagem3 from "../assets/hotel.svg"
+import imagem4 from "../assets/roteiro.svg"
+import imagem5 from "../assets/viagens.svg"
 import { Button } from "../components/styled/Button";
+import { Card } from "../components/styled/Card";
 
 export function Servicos(){
     return(
@@ -34,48 +38,29 @@ export function Servicos(){
             </Header>
             <Content>
                 
-                    <Card border="3px solid rgb(18, 42, 87);">
+                    <Card>
                         <div>
-                            <h1>Plano 1</h1>
-                            <hr/>
-                            <ul>
-                                <li>Suporte 24h</li>
-                                <li>Serviços de quarto</li>
-                                <li>Guia turístico</li>
-                            </ul>
-                            <Button width="200px" padding="20px" backgroundColor="rgb(18, 42, 87)" color="white">Saiba Mais!</Button>
-                        </div>
-                    </Card>  
-                    <Card border="3px solid rgb(18, 42, 87);">
-                        <div>
-                            <h1>Plano 2</h1>
-                            <hr/>
-                            <ul>
-                                <li>Suporte 24h</li>
-                                <li>Serviços de quarto</li>
-                                <li>Guia turístico</li>
-                                <li>Roteiros de trilhas</li>
-                                <li>Serviços personalizado</li>
-                            </ul>
-                            <Button width="200px" padding="20px" backgroundColor="rgb(18, 42, 87)" color="white">Saiba Mais!</Button>
-                        </div>
-                    </Card>  
-                    <Card border="3px solid rgb(18, 42, 87);">
-                        <div>
-                            <h1>Plano 3</h1>
-                            <hr/>
-                            <ul>
-                                <li>Suporte 24h</li>
-                                <li>Serviços de quarto</li>
-                                <li>Guia turístico</li>
-                                <li>Roteiros de trilhas</li>
-                                <li>Serviços personalizado</li>
-                                <li>Área Vip</li>
-                            </ul>
-                            <Button width="200px" padding="20px" backgroundColor="rgb(18, 42, 87)" color="white">Saiba Mais!</Button>
+                            <img src={imagem3} alt="Serviços de hospedagens" />
+                            <h2>Roteiros</h2>
+                            <Button width="150px" padding="10px" backgroundColor="transparent" color="rgb(18, 42, 87)"> Saiba Mais</Button>
                         </div>
                     </Card>               
-                                   
+                
+                    <Card>
+                        <div>
+                            <img src={imagem4} alt="Serviços de hospedagens" />
+                            <h2>Roteiros</h2>
+                            <Button width="150px" padding="10px" backgroundColor="transparent" color="rgb(18, 42, 87)"> Saiba Mais</Button>
+                        </div>
+                    </Card>
+                
+                    <Card>
+                    <div>
+                        <img src={imagem5} alt="Serviços de hospedagens" />
+                        <h2>Roteiros</h2>
+                        <Button width="150px" padding="10px" backgroundColor="transparent" color="rgb(18, 42, 87)"> Saiba Mais</Button>
+                    </div>
+                    </Card>
             </Content>
            <Footer>
             <div>

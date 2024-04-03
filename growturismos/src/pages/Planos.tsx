@@ -4,6 +4,7 @@ import { Nav } from "../components/styled/Nav";
 import { Footer } from "../components/styled/Footer";
 import { Content } from "../components/styled/Content";
 import { Card } from "../components/styled/Card";
+import { Button } from "../components/styled/Button";
 
 export function Planos(){
     return(
@@ -32,11 +33,47 @@ export function Planos(){
                 </div>
             </Header>
             <Content>
-                <div>
-                    <Card>
-                        
-                    </Card>
-                </div>
+            <Card border="3px solid rgb(18, 42, 87);">
+                        <div>
+                            <h1>Plano 1</h1>
+                            <hr/>
+                            <ul>
+                                <li>Suporte 24h</li>
+                                <li>Serviços de quarto</li>
+                                <li>Guia turístico</li>
+                            </ul>
+                            <Button width="200px" padding="20px" backgroundColor="rgb(18, 42, 87)" color="white">Saiba Mais!</Button>
+                        </div>
+                    </Card>  
+                    <Card border="3px solid rgb(18, 42, 87);">
+                        <div>
+                            <h1>Plano 2</h1>
+                            <hr/>
+                            <ul>
+                                <li>Suporte 24h</li>
+                                <li>Serviços de quarto</li>
+                                <li>Guia turístico</li>
+                                <li>Roteiros de trilhas</li>
+                                <li>Serviços personalizado</li>
+                            </ul>
+                            <Button width="200px" padding="20px" backgroundColor="rgb(18, 42, 87)" color="white">Saiba Mais!</Button>
+                        </div>
+                    </Card>  
+                    <Card border="3px solid rgb(18, 42, 87);">
+                        <div>
+                            <h1>Plano 3</h1>
+                            <hr/>
+                            <ul>
+                                <li>Suporte 24h</li>
+                                <li>Serviços de quarto</li>
+                                <li>Guia turístico</li>
+                                <li>Roteiros de trilhas</li>
+                                <li>Serviços personalizado</li>
+                                <li>Área Vip</li>
+                            </ul>
+                            <Button width="200px" padding="20px" backgroundColor="rgb(18, 42, 87)" color="white">Saiba Mais!</Button>
+                        </div>
+                    </Card>   
             </Content>
            <Footer>
             <div>
