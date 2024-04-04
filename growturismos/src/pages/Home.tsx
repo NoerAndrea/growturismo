@@ -33,7 +33,7 @@ export function Home(){
                     </Nav>
                 </div>
             </Header>
-                <Content>
+                <Content minHeight="200px">
                     <div>
                         <h1>GrowTravel</h1>
                         <p>O melhor serviço para você!</p>

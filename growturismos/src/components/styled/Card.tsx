@@ -8,7 +8,9 @@ export const Card = styled.div<CardProps>`
     width: 240px;
     height: 320px;
     padding: 24px;    
-    border: ${(props) => props.border};     
+    border: ${(props) => props.border};   
+    gap: 12px;  
+    margin: 20px;
     
     div{
         width: 100%;
@@ -17,7 +19,7 @@ export const Card = styled.div<CardProps>`
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        gap: 12px;
+        
     }
     h1{
         color: rgb(18, 42, 87);
@@ -37,7 +39,7 @@ export const Card = styled.div<CardProps>`
         margin: 4px 0px;
     }
     li{
-        font-size: 1.5rem;
+        font-size: 1rem;
         list-style-type: square;
         list-style-position: inside;
     }

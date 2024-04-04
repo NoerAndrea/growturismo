@@ -32,20 +32,18 @@ export function QuemSomos(){
                     </Nav>
                 </div>
             </Header>
-            <Content>
+            <Content >
                 <div>
                     <img src={imagem2} alt="Banner Aeroporto" />
                 </div>
                 <div>
-                    <h1>
+                    <h2>
                         | Quem Somos
-                    </h1>
+                    </h2>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat cumque facere dignissimos repellat corporis aliquam dolore alias, provident mollitia saepe officia eum suscipit rem iusto id. Temporibus quis quisquam ullam.
                     </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quidem repellat! Ipsam cupiditate eum dolor, temporibus unde ullam quas incidunt autem voluptatum illo, delectus distinctio! Vero accusantium tempora totam repellat.
-                    </p>
+                    
                 </div>
             </Content>
            <Footer>

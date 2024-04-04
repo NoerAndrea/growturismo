@@ -18,4 +18,5 @@ export const Button = styled.button<ButtonProps>`
     transition: all 0.2s ease 0s;
     width: ${(props) => props.width};
     padding: ${(props) => props.padding};
+    padding-top: 20px;
 `

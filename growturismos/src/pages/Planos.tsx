@@ -33,7 +33,7 @@ export function Planos(){
                 </div>
             </Header>
             <Content>
-            <Card border="3px solid rgb(18, 42, 87);">
+                <Card border="3px solid rgb(18, 42, 87);">
                         <div>
                             <h1>Plano 1</h1>
                             <hr/>
