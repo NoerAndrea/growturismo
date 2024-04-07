@@ -11,10 +11,10 @@ export function Footer(props: FooterProps){
     return(
         <FooterStyled>
             <div>
-                <p>&copy;2024 Full Stack Growdev</p>
                 {props.listaLinks.map((item)=>(
-                    <Link href={item.url} target="_blank">{item.text}</Link>
+                    <Link href={item.url} target="_blank">&copy;{item.text}</Link>
                 ))}
+                <p>17ª Edição</p>
             </div>
         </FooterStyled>
     )

@@ -18,6 +18,7 @@ export const Footer = styled.div`
     }
     p{       
         font-size: 0.8rem;
-		font-weight: 400;      
+		font-weight: 400; 
+        white-space: nowrap;     
     }
 `

@@ -12,6 +12,4 @@ export const Link = styled.a`
         vertical-align: inherit;     
         font-size: 0.8rem;
 		font-weight: 400;
-        position: fixed;
-        left: 70%;
 `;

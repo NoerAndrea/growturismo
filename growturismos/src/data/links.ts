@@ -9,6 +9,6 @@ export interface Links {
 export const listaLinks: Array<Links>=[
     {
         url:'https://www.growdev.com.br/programs/full-stack',
-        text: '17ª Edição'
+        text: '2024 Full Stack Growdev'
     }
 ]
