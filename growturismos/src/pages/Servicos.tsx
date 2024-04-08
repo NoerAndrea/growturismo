@@ -1,8 +1,9 @@
 import { Fragment } from "react/jsx-runtime";
-import { Footer } from "../components/styled/Footer";
+import { Footer } from "../components/functionals/Footer";
 import { Header } from "../components/styled/Header";
 import { Nav } from "../components/styled/Nav";
 import { Content } from "../components/styled/Content";
+import { listaLinks } from "../data/links";
 
 import imagem3 from "../assets/hotel.svg"
 import imagem4 from "../assets/roteiro.svg"
@@ -62,12 +63,7 @@ export function Servicos(){
                     </div>
                     </Card>
             </Content>
-           <Footer>
-            <div>
-                <p>&copy;2024 Full Stack Growdev</p>
-                <p>17ª Edição</p>
-            </div>
-           </Footer>
+            <Footer listaLinks={listaLinks}/>
         </Fragment>
     )
 }

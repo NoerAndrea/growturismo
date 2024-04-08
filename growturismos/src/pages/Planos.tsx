@@ -1,10 +1,11 @@
 import { Fragment } from "react/jsx-runtime";
 import { Header } from "../components/styled/Header";
 import { Nav } from "../components/styled/Nav";
-import { Footer } from "../components/styled/Footer";
+import { Footer } from "../components/functionals/Footer";
 import { Content } from "../components/styled/Content";
 import { Card } from "../components/styled/Card";
 import { Button } from "../components/styled/Button";
+import { listaLinks } from "../data/links";
 
 export function Planos(){
     return(
@@ -75,12 +76,7 @@ export function Planos(){
                         </div>
                     </Card>   
             </Content>
-           <Footer>
-            <div>
-                <p>&copy;2024 Full Stack Growdev</p>
-                <p>17ª Edição</p>
-            </div>
-           </Footer>
+            <Footer listaLinks={listaLinks}/>
         </Fragment>
     )
 }
